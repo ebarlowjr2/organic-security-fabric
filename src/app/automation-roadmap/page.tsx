@@ -3,10 +3,10 @@ import { Container } from "@/components/landing/Container";
 
 export default function AutomationRoadmapPage() {
   return (
-    <div className="min-h-full bg-[#071126] text-white">
+    <div className="min-h-full bg-[#0B0F1A] text-white">
       <Container>
         <div className="py-20">
-          <p className="text-xs font-semibold tracking-widest text-teal-300/90 uppercase">
+          <p className="text-xs font-semibold tracking-widest text-cyan-200/90 uppercase">
             Placeholder
           </p>
           <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
@@ -27,4 +27,3 @@ export default function AutomationRoadmapPage() {
     </div>
   );
 }
-

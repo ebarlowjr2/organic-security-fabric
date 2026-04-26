@@ -73,13 +73,13 @@ export default function Home() {
   ] as const;
 
   return (
-    <div className="min-h-full bg-[#071126] text-white">
-      <header className="sticky top-0 z-30 border-b border-white/10 bg-[#071126]/80 backdrop-blur">
+    <div className="min-h-full bg-[#0B0F1A] text-white">
+      <header className="sticky top-0 z-30 border-b border-white/10 bg-[#0B0F1A]/80 backdrop-blur">
         <Container>
           <div className="flex h-16 items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-teal-400/10 shadow-[0_0_0_1px_rgba(45,212,191,0.18)]">
-                <span className="text-sm font-semibold text-teal-200">OSF</span>
+              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-cyan-300/10 shadow-[0_0_0_1px_rgba(34,211,238,0.20)]">
+                <span className="text-sm font-semibold text-cyan-100">OSF</span>
               </div>
               <div className="leading-tight">
                 <p className="text-sm font-semibold tracking-tight">
@@ -119,13 +119,13 @@ export default function Home() {
       <main>
         <section className="relative overflow-hidden">
           <div className="pointer-events-none absolute inset-0 osf-grid opacity-70" />
-          <div className="pointer-events-none absolute -top-32 left-1/2 h-[520px] w-[820px] -translate-x-1/2 rounded-full bg-gradient-to-r from-teal-500/25 via-sky-500/15 to-emerald-500/15 blur-3xl" />
+          <div className="pointer-events-none absolute -top-40 left-1/2 h-[560px] w-[880px] -translate-x-1/2 rounded-full bg-gradient-to-r from-cyan-400/25 via-violet-500/16 to-fuchsia-500/12 blur-3xl" />
 
           <Container>
             <div className="relative py-20 sm:py-28">
               <div className="max-w-3xl">
                 <p className="inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-1 text-xs font-medium text-white/75 shadow-[0_0_0_1px_rgba(255,255,255,0.10)]">
-                  <span className="h-1.5 w-1.5 rounded-full bg-teal-300" />
+                  <span className="h-1.5 w-1.5 rounded-full bg-cyan-300" />
                   A practical movement for real-world security
                 </p>
                 <h1 className="mt-6 text-balance text-4xl font-semibold tracking-tight sm:text-6xl">
@@ -212,7 +212,7 @@ export default function Home() {
               </Card>
             </div>
 
-            <div className="mt-10 rounded-2xl bg-gradient-to-r from-teal-500/15 via-sky-500/10 to-emerald-500/10 p-6 shadow-[0_0_0_1px_rgba(45,212,191,0.18)]">
+            <div className="mt-10 rounded-2xl bg-gradient-to-r from-cyan-400/14 via-violet-500/10 to-fuchsia-500/8 p-6 shadow-[0_0_0_1px_rgba(34,211,238,0.18)]">
               <p className="text-center text-lg font-semibold tracking-tight text-white">
                 Frameworks guide. Fabrics operate.
               </p>
@@ -338,7 +338,7 @@ export default function Home() {
               </div>
 
               <div className="rounded-2xl bg-gradient-to-b from-white/[0.08] to-white/[0.04] p-8 shadow-[0_0_0_1px_rgba(255,255,255,0.10)]">
-                <p className="text-xs font-semibold tracking-widest text-teal-300/90 uppercase">
+                <p className="text-xs font-semibold tracking-widest text-cyan-200/90 uppercase">
                   What you get
                 </p>
                 <ul className="mt-5 space-y-3 text-sm text-white/75">

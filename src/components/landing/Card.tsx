@@ -10,10 +10,10 @@ export function Card({
   children: ReactNode;
 }) {
   return (
-    <div className="group rounded-2xl bg-white/[0.06] p-6 shadow-[0_0_0_1px_rgba(255,255,255,0.10)] backdrop-blur-sm transition hover:bg-white/[0.08]">
+    <div className="group rounded-2xl bg-white/[0.05] p-6 shadow-[0_0_0_1px_rgba(255,255,255,0.10)] backdrop-blur-sm transition hover:bg-white/[0.07]">
       <div className="flex items-start gap-3">
         {icon ? (
-          <div className="mt-0.5 flex h-9 w-9 items-center justify-center rounded-xl bg-teal-400/10 text-teal-200 shadow-[0_0_0_1px_rgba(45,212,191,0.20)]">
+          <div className="mt-0.5 flex h-9 w-9 items-center justify-center rounded-xl bg-cyan-300/10 text-cyan-100 shadow-[0_0_0_1px_rgba(34,211,238,0.20)]">
             {icon}
           </div>
         ) : null}
@@ -27,4 +27,3 @@ export function Card({
     </div>
   );
 }
-

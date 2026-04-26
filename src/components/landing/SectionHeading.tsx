@@ -10,7 +10,7 @@ export function SectionHeading({
   return (
     <div className="max-w-3xl">
       {eyebrow ? (
-        <p className="text-xs font-semibold tracking-widest text-teal-300/90 uppercase">
+        <p className="text-xs font-semibold tracking-widest text-cyan-200/90 uppercase">
           {eyebrow}
         </p>
       ) : null}
@@ -25,4 +25,3 @@ export function SectionHeading({
     </div>
   );
 }
-
