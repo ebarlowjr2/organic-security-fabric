@@ -69,6 +69,7 @@ export default function Home() {
         "Adaptive security suggestions",
       ],
       icon: <Icon d={Icons.layers} />,
+      href: "/layers/sentient",
     },
   ] as const;
 
@@ -230,7 +231,12 @@ export default function Home() {
 
             <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
               {layers.map((layer) => (
-                <Card key={layer.title} title={layer.title} icon={layer.icon}>
+                <Card
+                  key={layer.title}
+                  title={layer.title}
+                  icon={layer.icon}
+                  href={"href" in layer ? layer.href : undefined}
+                >
                   <p className="text-sm text-white/75">{layer.description}</p>
                   <ul className="mt-4 list-disc space-y-1 pl-5 text-sm text-white/70">
                     {layer.examples.map((example) => (
