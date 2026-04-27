@@ -107,6 +107,9 @@ export default function Home() {
               <a className="hover:text-white" href="#wiki">
                 Wiki
               </a>
+              <a className="hover:text-white" href="/community">
+                Community
+              </a>
             </nav>
             <div className="hidden md:flex">
               <Button href="#layers" variant="secondary">
@@ -435,6 +438,9 @@ export default function Home() {
                 </Button>
                 <Button href="/automation-roadmap" variant="ghost">
                   Automation Roadmap
+                </Button>
+                <Button href="/community" variant="ghost">
+                  Community
                 </Button>
               </div>
             </div>
