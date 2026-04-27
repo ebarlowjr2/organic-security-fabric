@@ -110,6 +110,9 @@ export default function Home() {
               <a className="hover:text-white" href="/community">
                 Community
               </a>
+              <a className="hover:text-white" href="/community#connect">
+                Connect With Us
+              </a>
             </nav>
             <div className="hidden md:flex">
               <Button href="#layers" variant="secondary">

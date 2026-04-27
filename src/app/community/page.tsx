@@ -6,6 +6,7 @@ import { CommunityRoadmap } from "@/components/community/CommunityRoadmap";
 import { ContributionAreaGrid } from "@/components/community/ContributionAreaGrid";
 import { ContributionFlow } from "@/components/community/ContributionFlow";
 import { ContributorRoles } from "@/components/community/ContributorRoles";
+import { ConnectWithUs } from "@/components/community/ConnectWithUs";
 import { EndorsementPanel } from "@/components/community/EndorsementPanel";
 import { PrinciplesGrid } from "@/components/community/PrinciplesGrid";
 import { TrustBadges } from "@/components/community/TrustBadges";
@@ -37,6 +38,9 @@ export default function CommunityPage() {
               </a>
               <a className="hover:text-white" href="#endorse">
                 Endorse
+              </a>
+              <a className="hover:text-white" href="#connect">
+                Connect With Us
               </a>
             </nav>
 
@@ -160,6 +164,10 @@ export default function CommunityPage() {
           </Container>
         </section>
 
+        <div id="connect">
+          <ConnectWithUs />
+        </div>
+
         <section className="border-t border-white/10 py-16 sm:py-20">
           <Container>
             <div className="grid items-center gap-10 lg:grid-cols-2">
@@ -205,4 +213,3 @@ export default function CommunityPage() {
     </div>
   );
 }
-
