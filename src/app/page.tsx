@@ -116,6 +116,11 @@ export default function Home() {
                 View the Layers
               </Button>
             </div>
+            <div className="flex md:hidden items-center gap-2">
+              <Button href="/community" variant="ghost">
+                Community
+              </Button>
+            </div>
           </div>
         </Container>
       </header>
