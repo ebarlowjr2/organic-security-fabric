@@ -150,6 +150,64 @@ export default function Home() {
                   Frameworks define what good security looks like. Fabrics help
                   make it happen.
                 </p>
+
+                <div className="mt-10 rounded-2xl bg-white/[0.04] p-6 shadow-[0_0_0_1px_rgba(255,255,255,0.10)]">
+                  <p className="text-xs font-semibold tracking-widest text-cyan-200/90 uppercase">
+                    Organic Security Fabric (OSF) Statement
+                  </p>
+                  <div className="mt-4 space-y-4 text-sm leading-6 text-white/75">
+                    <p>
+                      The Organic Security Fabric (OSF) provides a practical,
+                      community-driven approach for implementing, operating,
+                      and maintaining cybersecurity protections across diverse
+                      environments.
+                    </p>
+                    <p>
+                      It is designed for use by industry, government
+                      organizations, service providers, and individual
+                      practitioners seeking to improve security posture in a
+                      way that is understandable, adaptable, and grounded in
+                      real-world operations.
+                    </p>
+                    <p>
+                      The Organic Security Fabric introduces a model for
+                      organizing cybersecurity activities into a set of
+                      interconnected layers that collectively support the
+                      application, monitoring, and verification of security
+                      controls over time. These layers are intended to reflect
+                      how security is actually implemented and maintained,
+                      rather than how it is documented.
+                    </p>
+                    <p>
+                      The Fabric is not intended to replace established
+                      frameworks, standards, or regulatory requirements.
+                      Instead, it serves as an operational complement that
+                      helps translate those expectations into actionable,
+                      repeatable practices that can be applied across
+                      environments of varying size, complexity, and maturity.
+                    </p>
+                    <p>
+                      The Organic Security Fabric does not prescribe specific
+                      tools, vendors, or technologies. It provides a structure
+                      that organizations can adapt to their own environments,
+                      enabling them to:
+                    </p>
+                    <ul className="list-disc space-y-1 pl-5">
+                      <li>Understand and apply foundational security controls</li>
+                      <li>Maintain visibility into systems and activity</li>
+                      <li>Continuously verify that protections remain in place</li>
+                      <li>
+                        Improve security posture through incremental, observable
+                        changes
+                      </li>
+                    </ul>
+                    <p>
+                      The Fabric is designed to evolve over time through
+                      community contribution, shared implementation guidance,
+                      and practical feedback from real-world use.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </Container>
