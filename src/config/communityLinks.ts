@@ -3,7 +3,7 @@ export const communityLinks = {
     label: "Slack Community",
     description:
       "Join real-time discussions, working groups, and contributor conversations.",
-    url: "https://slack.com/YOUR-INVITE-LINK",
+    url: "https://join.slack.com/t/cyberframewor-kxk3723/shared_invite/zt-3v0nv31g5-9vdRGFATz1rgcNdtmwWeSg",
     buttonText: "Join Slack",
   },
   reddit: {
@@ -21,4 +21,3 @@ export const communityLinks = {
     buttonText: "Follow on LinkedIn",
   },
 } as const;
-
