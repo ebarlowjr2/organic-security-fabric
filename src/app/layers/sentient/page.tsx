@@ -11,6 +11,7 @@ import { LayerHero } from "@/components/layers/sentient/LayerHero";
 import { ProcessFlow } from "@/components/layers/sentient/ProcessFlow";
 import { RoadmapTimeline } from "@/components/layers/sentient/RoadmapTimeline";
 import { TechnologyGrid } from "@/components/layers/sentient/TechnologyGrid";
+import Image from "next/image";
 
 export default function SentientLayerPage() {
   return (
@@ -19,8 +20,14 @@ export default function SentientLayerPage() {
         <Container>
           <div className="flex h-16 items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-cyan-300/10 shadow-[0_0_0_1px_rgba(34,211,238,0.20)]">
-                <span className="text-sm font-semibold text-cyan-100">OSF</span>
+              <div className="flex h-9 w-9 items-center justify-center overflow-hidden rounded-xl bg-white/[0.05] shadow-[0_0_0_1px_rgba(255,255,255,0.10)]">
+                <Image
+                  src="/osf-logo.png"
+                  alt="Organic Security Fabric logo"
+                  width={36}
+                  height={36}
+                  priority
+                />
               </div>
               <div className="leading-tight">
                 <p className="text-sm font-semibold tracking-tight">
@@ -214,4 +221,3 @@ export default function SentientLayerPage() {
     </div>
   );
 }
-
